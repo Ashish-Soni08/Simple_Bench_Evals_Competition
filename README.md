@@ -29,8 +29,23 @@ uv pip install -r pyproject.toml
 ```
 
 Create a `.env` file with the following:
+
 ```
 OPENAI_API_KEY=<your key>
 ANTHROPIC_API_KEY=<your key>
-...
+```
+
+```bash
+# add the virtual environment as a kernel for the jupyter notebook
+python -m ipykernel install --user --name=llm_env --display-name="Py3.10.11-llm_env"
+````
+
+```bash
+# verify kernel installation
+jupyter kernelspec list
+```
+
+```bash
+# If needed
+jupyter kernelspec uninstall llm_env
 ```
