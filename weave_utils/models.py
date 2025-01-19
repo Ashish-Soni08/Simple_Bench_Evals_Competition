@@ -15,16 +15,13 @@ from openai import RateLimitError
 
 MODEL_MAP = {
     "gpt-4o-mini": "gpt-4o-mini",
-    "claude-3-5-sonnet-20240620": "claude-3-5-sonnet-20240620",
     "gpt-4o": "gpt-4o-2024-08-06",
     "gpt-4-turbo": "gpt-4-turbo",
     "o1-preview": "o1-preview",
     "o1-mini": "o1-mini",
-    "claude-3-opus-20240229": "claude-3-opus-20240229",
     "command-r-plus": "command-r-plus-08-2024",
     "gemini-1.5-pro": "gemini/gemini-1.5-pro",
     "llama3-405b-instruct": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
-    "claude-3-haiku": "claude-3-haiku-20240307",
     "gemini-1.5-pro-002": "gemini/gemini-1.5-pro-002",
     "mistral-large": "mistral/mistral-large-2407",
     "grok-2": "openrouter/x-ai/grok-2"
